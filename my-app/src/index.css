@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.cal_container{
+  max-width: 400px;
+  background-color: silver;
+  border: 3px solid black;
+  border-radius: 16px;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin: 2px;
+  font-size: 1.7em;
+}
+
+.button-items {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  
+}
+
+.equal {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  width: 100%;
+  background-color: rgb(118, 255, 118);
+}
+
+.col_buttom {
+  color: rgb(6, 192, 192);
+}
+
+.inputbox {
+  width: 100%;
+  padding: 20px 15px ;
+  background-color:white;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 1.5em; 
+  font-weight: 500;
+}
+
+button:active {
+    background-color: rgb(18, 15, 15);
+    color: white;
+}
+
+.equal:active{
+  background-color: white;
+  color: black;
+}
