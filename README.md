@@ -1,0 +1,1 @@
+This project is a simple calculator built with React.js. It supports basic arithmetic operations like addition, subtraction, multiplication, and division. The app features an easy-to-use interface and provides quick, accurate calculations. With React's component-based structure, the app is lightweight, responsive, and simple to navigate.
